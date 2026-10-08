@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8.7",
+  "package": "dev.codex.arsaffinityfix.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "priority": 900,
+  "mixins": [
+    "PlayerAffinityDataProviderMixin",
+    "SpellTrackingDedupMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,44 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+modId="ars_affinity_fix"
+version="1.0.0"
+displayName="Ars Affinity Fix"
+authors="Codex"
+description='''
+Fixes Ars Affinity 1.1.1 data loss, stale skill points and repeated affinity
+awards in integrated singleplayer servers. Keeps the original save format.
+'''
+
+[[mixins]]
+config="ars_affinity_fix.mixins.json"
+
+[[dependencies.ars_affinity_fix]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.248,22)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.ars_affinity_fix]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.21.2)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.ars_affinity_fix]]
+modId="ars_affinity"
+type="required"
+versionRange="[1.1.1,1.1.2)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.ars_affinity_fix]]
+modId="ars_nouveau"
+type="required"
+versionRange="[5.13.0,5.14.0)"
+ordering="AFTER"
+side="BOTH"

@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Specification-Title: Ars Affinity Fix
+Specification-Vendor: Codex
+Specification-Version: 1.0.0
+Implementation-Title: ars_affinity_fix
+Implementation-Version: 1.0.0
+MixinConfigs: ars_affinity_fix.mixins.json
+
